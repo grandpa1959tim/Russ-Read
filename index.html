@@ -8,7 +8,7 @@
 <meta name="apple-mobile-web-app-title" content="RussListen">
 <meta name="theme-color" content="#0d0d0d">
 <title>RussCards</title>
-<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAADJUlEQVR4nO3czVHbABhFUZmhjjSQCtJwOko9zsoMGP9IsmTJl3P2jMVw5/GhBYfj8ThsbPMHYHGHrT74fYPPFHDf+c/4aYE/K2gR/2yff/6rxr120ELm3KmJVcJeK2ghc88qYS8dtJCZatGwlwpayDxqkbDfFnwQWMJDPT0atJhZw+yu5p4cQmZts06QOQstZp5pUm9TgxYzWxjd3ZSgxcyWRvU3Nmgxswd3O1zitR3sxpigrTN7crPHe0GLmT262uWtoMXMnl3s0w1NyrWgrTOv4FunFpqUS0FbZ17Jl14tNCnnQVtnXtFHtxaalM9BW2de2XEYLDQxgiblFLRzg4KjhSZF0KQImpS3wf1MiIUmRdCkCJoUQZMiaFIETYqgSRE0KYImRdCkCJoUQZMiaFIETYqgSRE0KYImRdCkCJoUQZMiaFIETYqgSRE0KYImRdCkCJqUw/Dnr/9tR4aFJkXQpAiaFEGTImhSBE2KoEkRNCmCJkXQpAiaFEGTImhSBE2KoEkRNCmCJkXQpAiaFEGTImhSBE2KoEkRNCmCJkXQpAiaFEGTImhSBE2KoEkRNCmCJkXQpAiaFEGTImhSBE2KoEkRNCmCJkXQpAiaFEGTImhSBE2KoEkRNCmCJkXQpAiaFEGTImhSBE2KoEkRNCmCJkXQpAialMO/37+OWz8ELMVCkyJoUgRNiqBJETQpgiZF0KQImhRBkyJoUgRNiqBJETQpgiZF0KQImhRBkyJoUgRNiqBJETQpgiZF0KQImhRBkyJoUgRNiqBJeRuG4bD1Q8BSLDQpgiZF0KScgnZHU3Cw0KQImpTPQTs7eGWHYbDQxJwHbaV5RR/dWmhSLgVtpXklX3q10KRcC9pK8wq+dWqhSbkVtJVmzy72eW+hRc0eXe1yzMkhavbkZo9uaFLGBm2l2YO7HU5ZaFGzpVH9TT05RM0WRnc354YWNc80qbf3Bz/kOPPr4Z5Zw/noWw5rzRpmd7XEaztRs6SHepp7clx7CCcIcy0yjEsFfSJsplr0N/zSQZ8Im3tWOVXXCvpE2Jxb9W+utYM++fxNiPvnedqLg//yujp3Kfk/CgAAAABJRU5ErkJggg==">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAABfUlEQVR42u3SQREAIAwDwSjBAAowjCP0gIfy7GZOQWZzzT4WFxhABpABZACZAWQAGUAGkBlABpABZACZAWQAGUAGkBlABpABZAAZQGYAGUAGkAFkBpABZAAZQGYAGUAGkAFkBpABZAAZQAaQGUAGkAFkAJkBZAAZQAaQGUAGkAFkAJkBZAAZQAaQGUAGkAFkABlAZgAZQAaQNQGUtaV6LhBAAkgACSAJIAEkgASQBJAAEkACSAJIAAkgASQBJIAEkAASQBJAAkgACSAJIAEkgASQBJAAEkACSAJIAAkgASSAJIAEkAASQBJAAkgACSAJIAEkgASQBJAAEkACSAJIAAkgASSAJIAEkABSk84cUjmABJAAEkACSAJIAAkgASQBJIAEkACSABJAAkgASQAJIAEkgASQBJAAEkACSAJIAAkgASQBJIAEkACSABJAAkgACSAJIAEkgASQBJAAEkACSAJIAAkgASQBJIAEkACSABJAAkgACSAJIAEkgNSkB1137fMFhMnrAAAAAElFTkSuQmCC">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
@@ -42,7 +42,7 @@ html,body{height:100%;background:#0d0d0d;color:#f5f5f0;font-family:'Nunito',sans
 /* Sentence card */
 #sentCard{width:100%;max-width:520px;background:var(--sur);border:1.5px solid var(--brd);border-radius:var(--rad);padding:16px;}
 #sentTop{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;}
-#sentNum{font-size:11px;color:#555;font-weight:800;}
+#sentNum{font-size:12px;color:#aaa;font-weight:900;}
 #sentBox{font-size:10px;color:#555;font-weight:800;}
 #starBtn{background:none;border:none;font-size:22px;cursor:pointer;color:#555;padding:0;}
 #starBtn.on{color:var(--gold);}
@@ -152,6 +152,7 @@ input.fi:focus{border-color:var(--acc);}
 #markWordBtn.rc-on{background:rgba(255,215,0,.25);border-color:var(--gold);color:var(--gold);}
 .rcWord{cursor:pointer;border-radius:3px;padding:0 2px;transition:background .1s;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;}
 .rcWord:hover,.rcWord:active{background:rgba(255,215,0,.25);}
+.rcWord.rchl{background:rgba(255,215,0,.45);color:#111;border-radius:3px;}
 .rcEWord{display:inline;transition:color .15s;}
 .rcEWord.rchl{color:#00d4aa;font-weight:800;}
 </style>
@@ -193,11 +194,15 @@ input.fi:focus{border-color:var(--acc);}
     <div style="width:100%;max-width:520px;display:flex;justify-content:flex-end;margin-bottom:6px;">
 <button id="starBtn" onclick="toggleStar()" style="display:none;"></button>
     </div>
+    <div id="loopBanner" style="display:none;background:rgba(0,200,83,.12);border:1px solid rgba(0,200,83,.3);border-radius:10px;padding:6px 14px;font-size:12px;font-weight:800;color:var(--acc);text-align:center;width:100%;max-width:500px;margin-bottom:6px;"></div>
     <div id="sentCardWrap" style="width:100%;max-width:520px;perspective:1000px;cursor:pointer;height:235px;position:relative;" onclick="flipCard()">
       <div id="sentCard" style="position:absolute;inset:0;transition:transform 0.4s;transform-style:preserve-3d;width:100%;">
         <!-- FRONT -->
         <div id="cardFront" style="backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--sur);border:1.5px solid var(--brd);border-radius:var(--rad);padding:14px 16px;position:absolute;inset:0;overflow:auto;display:flex;flex-direction:column;">
-          <span id="sentNum" style="display:none;"></span><span id="sentBox" style="display:none;"></span>
+          <div style="text-align:center;margin-bottom:6px;">
+            <span id="sentNum" style="font-size:13px;font-weight:900;color:#aaa;"></span>
+            <span id="sentBox" style="font-size:11px;color:#555;font-weight:700;margin-left:8px;"></span>
+          </div>
           <div style="flex:1;display:flex;flex-direction:column;justify-content:center;">
           <div id="sentFrontTxt" style="font-size:clamp(15px,4vw,20px);font-weight:800;color:#f5f5f0;line-height:1.5;text-align:center;margin-bottom:6px;">Loading...</div>
           <div id="sentEngLine" style="font-size:clamp(11px,3vw,14px);color:#555;text-align:center;line-height:1.5;margin-bottom:6px;min-height:18px;"></div>
@@ -244,7 +249,8 @@ input.fi:focus{border-color:var(--acc);}
         <button id="gotItBtn" onclick="doGotIt()">&#10003; Got It</button>
       </div>
       <div id="loopRow" style="display:flex;gap:6px;align-items:center;">
-        <button id="loopBtn" onclick="toggleLoop()" style="flex:1;">&#8635; Loop &#10003;'d</button>
+        <button id="loopOneBtn" onclick="toggleLoopOne()" style="flex:1;height:var(--tap);border-radius:var(--rad);font-family:'Nunito',sans-serif;font-size:13px;font-weight:800;cursor:pointer;background:rgba(0,200,83,.1);border:1.5px solid rgba(0,200,83,.3);color:#555;">&#8635; Loop 1</button>
+        <button id="loopBtn" onclick="toggleLoop()" style="flex:1;height:var(--tap);border-radius:var(--rad);font-family:'Nunito',sans-serif;font-size:13px;font-weight:800;cursor:pointer;background:rgba(0,200,83,.1);border:1.5px solid rgba(0,200,83,.3);color:#555;">&#8635; Loop &#9733;</button>
         <div id="starCountBadge" style="min-width:32px;height:44px;border-radius:8px;background:rgba(255,215,0,.15);border:1.5px solid var(--gold);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:900;color:var(--gold);padding:0 8px;">0</div>
         <div style="display:flex;gap:4px;">
           <button class="lc" onclick="setLoopN(2)">2x</button>
@@ -383,7 +389,7 @@ var cards=[];
 var ci=0;
 var isPlaying=false;
 var loopOn=false;
-var loopN=3;
+var loopN=3; // default reps
 var loopRep=0;
 var playOrder='ru-en';
 var conjOpen=false;
@@ -615,23 +621,50 @@ function togConj(){
 function speak(text,lang,rate,cb){
   var u=new SpeechSynthesisUtterance(text);
   u.lang=lang;u.rate=rate;
-  u.onend=function(){
+
+  function clearHl(){
+    document.querySelectorAll('#sentFrontTxt .rcWord.rchl').forEach(function(el){el.classList.remove('rchl');});
     document.querySelectorAll('#sentEngLine .rcEWord.rchl').forEach(function(el){el.classList.remove('rchl');});
-    if(cb)cb();
-  };
-  if(lang==='ru-RU' && engTransOn){
-    var ruWords=text.split(/\s+/).filter(Boolean);
-    var ruIdx=0;
+  }
+
+  u.onend=function(){ clearHl(); if(cb)cb(); };
+
+  if(lang==='ru-RU'){
+    // Build word position map from text
+    var ruSpans=Array.from(document.querySelectorAll('#sentFrontTxt .rcWord'));
+    var ewEls=Array.from(document.querySelectorAll('#sentEngLine .rcEWord'));
+
+    // Map each ruSpan to its char position in text
+    var spanMap=[];
+    var cursor=0;
+    ruSpans.forEach(function(s){
+      var w=(s.dataset.word||s.textContent).replace(/[\u0301\u0300]/g,'');
+      var idx=text.indexOf(w,cursor);
+      if(idx>=0){ spanMap.push({span:s,from:idx,to:idx+w.length}); cursor=idx+w.length; }
+    });
+
     u.onboundary=function(e){
       if(e.name!=='word')return;
-      document.querySelectorAll('#sentEngLine .rcEWord.rchl').forEach(function(el){el.classList.remove('rchl');});
-      var ewEls=Array.from(document.querySelectorAll('#sentEngLine .rcEWord'));
-      if(ewEls.length && ruIdx < ruWords.length){
-        var ratio=ruWords.length>1?ruIdx/(ruWords.length-1):0;
-        var ei=Math.min(Math.round(ratio*(ewEls.length-1)),ewEls.length-1);
-        if(ewEls[ei])ewEls[ei].classList.add('rchl');
+      clearHl();
+
+      // Highlight matching Russian span
+      var ruIdx=-1;
+      for(var i=0;i<spanMap.length;i++){
+        if(e.charIndex>=spanMap[i].from && e.charIndex<spanMap[i].to){ ruIdx=i; break; }
       }
-      ruIdx++;
+      // Fallback: find by position order
+      if(ruIdx<0){
+        var wordsBefore=text.slice(0,e.charIndex).split(/\s+/).filter(Boolean).length;
+        ruIdx=Math.min(wordsBefore, spanMap.length-1);
+      }
+      if(ruIdx>=0 && spanMap[ruIdx]) spanMap[ruIdx].span.classList.add('rchl');
+
+      // Highlight corresponding English word
+      if(ewEls.length && spanMap.length){
+        var ratio=spanMap.length>1?ruIdx/(spanMap.length-1):0;
+        var ei=Math.min(Math.round(ratio*(ewEls.length-1)),ewEls.length-1);
+        if(ewEls[ei]) ewEls[ei].classList.add('rchl');
+      }
     };
   }
   speechSynthesis.cancel();
@@ -655,11 +688,13 @@ function playCurrent(onDone){
   var c=cards[ci];if(!c)return;
   var spd=getSpd();var inner=getPauseInner();
   if(playOrder==='ru-only'){
-    showFront(); // front=RU
-    speak(c.ru,'ru-RU',spd,function(){if(onDone)setTimeout(onDone,inner);});
+    showFront();
+    renderEngLine(); // ensure EN spans exist before speaking
+    speak(c.ru.replace(/[́̀]/g,''),'ru-RU',spd,function(){if(onDone)setTimeout(onDone,inner);});
   }else if(playOrder==='ru-en'){
-    showFront(); // front=RU first
-    speak(c.ru,'ru-RU',spd,function(){
+    showFront();
+    renderEngLine(); // ensure EN spans exist before speaking
+    speak(c.ru.replace(/[́̀]/g,''),'ru-RU',spd,function(){
       setTimeout(function(){
         showBack(); // flip to EN
         speak(c.en,'en-US',spd,function(){if(onDone)setTimeout(onDone,inner);});
@@ -670,7 +705,7 @@ function playCurrent(onDone){
     speak(c.en,'en-US',spd,function(){
       setTimeout(function(){
         showBack(); // flip to RU
-        speak(c.ru,'ru-RU',spd,function(){if(onDone)setTimeout(onDone,inner);});
+        speak(c.ru.replace(/[́̀]/g,''),'ru-RU',spd,function(){if(onDone)setTimeout(onDone,inner);});
       },inner);
     });
   }
@@ -688,16 +723,23 @@ function startPlay(){
 }
 
 function stopPlay(){
-  isPlaying=false;speechSynthesis.cancel();
+  isPlaying=false;
+  loopOneOn=false;loopAllOn=false;
+  speechSynthesis.cancel();
   if(playTimer)clearTimeout(playTimer);
   var btn=document.getElementById('playBtn');
-  btn.textContent='▶ Play';btn.classList.remove('playing');
+  if(btn){btn.textContent='▶ Play';btn.classList.remove('playing');}
+  // Reset loop button states
+  var b1=document.getElementById('loopOneBtn');
+  var b2=document.getElementById('loopBtn');
+  if(b1){b1.classList.remove('on');b1.style.color='#555';b1.style.borderColor='rgba(0,200,83,.3)';b1.style.background='rgba(0,200,83,.1)';}
+  if(b2){b2.classList.remove('on');b2.style.color='#555';b2.style.borderColor='rgba(0,200,83,.3)';b2.style.background='rgba(0,200,83,.1)';}
+  updateLoopBanner();
 }
 
 function doStop(){
-  // Immediately cancel speech - stops mid-sentence
+  stopPlay();
   speechSynthesis.cancel();
-  isPlaying=false;
   if(playTimer)clearTimeout(playTimer);
   var btn=document.getElementById('playBtn');
   btn.textContent='▶ Play';btn.classList.remove('playing');
@@ -730,18 +772,110 @@ function playNext(){
   });
 }
 
+// ── LOOP SYSTEM ──────────────────────────────────────────────────────────────
+var loopOneOn = false;   // loop single card
+var loopAllOn = false;   // loop all marked cards
+var loopOneRep = 0;      // current rep for single card loop
+var loopAllRep = 0;      // current rep for marked loop
+var loopAllIdx = 0;      // current card index in marked loop
+
+function getLoopN(){
+  // Get selected loop count (1-5)
+  var sel = document.querySelector('.lc.on');
+  return sel ? parseInt(sel.textContent) : 3;
+}
+
+function updateLoopBanner(){
+  var banner = document.getElementById('loopBanner');
+  if(!banner) return;
+  if(loopOneOn){
+    banner.style.display = 'block';
+    banner.textContent = '\u21c4 Looping card ' + (ci+1) + ' — rep ' + loopOneRep + ' / ' + getLoopN();
+  } else if(loopAllOn){
+    var marked = cards.filter(function(c){return c.starred;});
+    banner.style.display = 'block';
+    banner.textContent = '\u21c4 Looping marked: card ' + (loopAllIdx+1) + ' / ' + marked.length + ' — rep ' + loopAllRep + ' / ' + getLoopN();
+  } else {
+    banner.style.display = 'none';
+  }
+}
+
+function toggleLoopOne(){
+  // Stop other loop if running
+  if(loopAllOn){ loopAllOn=false; document.getElementById('loopBtn').classList.remove('on'); document.getElementById('loopBtn').style.color='#555'; }
+  loopOneOn = !loopOneOn;
+  loopOneRep = 0;
+  var btn = document.getElementById('loopOneBtn');
+  if(loopOneOn){
+    btn.classList.add('on'); btn.style.color='var(--acc)'; btn.style.borderColor='var(--acc)'; btn.style.background='rgba(0,200,83,.25)';
+    updateLoopBanner();
+    playLoopOne();
+  } else {
+    btn.classList.remove('on'); btn.style.color='#555'; btn.style.borderColor='rgba(0,200,83,.3)'; btn.style.background='rgba(0,200,83,.1)';
+    stopPlay();
+    updateLoopBanner();
+  }
+}
+
+function playLoopOne(){
+  if(!loopOneOn) return;
+  var n = getLoopN();
+  if(loopOneRep >= n){ loopOneOn=false; toggleLoopOne(); toast('Loop complete!'); return; }
+  loopOneRep++;
+  updateLoopBanner();
+  var c = cards[ci]; if(!c) return;
+  renderEngLine();
+  speak(c.ru.replace(/[\u0301\u0300]/g,''), 'ru-RU', getSpd(), function(){
+    if(loopOneOn) setTimeout(playLoopOne, getPauseInner());
+  });
+}
+
 function toggleLoop(){
-  var starred=cards.filter(function(c){return c.starred;});
-  if(!loopOn&&starred.length===0){toast('Star some sentences first!');return;}
-  loopOn=!loopOn;loopRep=0;
-  document.getElementById('loopBtn').classList.toggle('on',loopOn);
-  document.getElementById('loopBtn').textContent=loopOn?'\u21c4 Loop done':'\u21c4 Loop Starred';
-  toast(loopOn?'Loop ON — '+starred.length+" ✓'d":'Loop OFF');
+  // Stop single loop if running
+  if(loopOneOn){ loopOneOn=false; document.getElementById('loopOneBtn').classList.remove('on'); document.getElementById('loopOneBtn').style.color='#555'; document.getElementById('loopOneBtn').style.borderColor='rgba(0,200,83,.3)'; document.getElementById('loopOneBtn').style.background='rgba(0,200,83,.1)'; }
+  var marked = cards.filter(function(c){return c.starred;});
+  if(!loopAllOn && !marked.length){ toast('Mark some cards first \u2605'); return; }
+  loopAllOn = !loopAllOn;
+  loopAllIdx = 0; loopAllRep = 0;
+  var btn = document.getElementById('loopBtn');
+  if(loopAllOn){
+    btn.classList.add('on'); btn.style.color='var(--acc)'; btn.style.borderColor='var(--acc)'; btn.style.background='rgba(0,200,83,.25)';
+    updateLoopBanner();
+    playLoopAll();
+  } else {
+    btn.classList.remove('on'); btn.style.color='#555'; btn.style.borderColor='rgba(0,200,83,.3)'; btn.style.background='rgba(0,200,83,.1)';
+    stopPlay();
+    updateLoopBanner();
+  }
+}
+
+function playLoopAll(){
+  if(!loopAllOn) return;
+  var marked = cards.filter(function(c){return c.starred;});
+  var n = getLoopN();
+  if(loopAllIdx >= marked.length){
+    loopAllRep++;
+    if(loopAllRep >= n){ loopAllOn=false; toggleLoop(); toast('Loop complete!'); return; }
+    loopAllIdx = 0;
+  }
+  ci = cards.indexOf(marked[loopAllIdx]);
+  renderCard();
+  updateLoopBanner();
+  var c = marked[loopAllIdx]; if(!c) return;
+  renderEngLine();
+  speak(c.ru.replace(/[\u0301\u0300]/g,''), 'ru-RU', getSpd(), function(){
+    if(loopAllOn){
+      loopAllIdx++;
+      setTimeout(playLoopAll, getPauseOuter());
+    }
+  });
 }
 
 function setLoopN(n){
   loopN=n;
   document.querySelectorAll('.lc').forEach(function(b){b.classList.toggle('on',parseInt(b.textContent)===n);});
+  updateLoopBanner();
+  updateLoopBanner();
 }
 
 function doPrev(){if(ci>0){ci--;renderCard();}}
@@ -977,7 +1111,7 @@ function renderMarkedList(){
 
 function reviewMarked(){
   var marked=cards.filter(function(c){return c.starred;});
-  if(!marked.length){toast('No marked cards');return;}
+  if(!marked.length){toast('Mark some cards first using the ★ button');return;}
   // Jump to first marked card
   ci=cards.indexOf(marked[0]);
   renderCard();goTab('listen');
@@ -991,7 +1125,7 @@ var clozeRevealed=false;
 
 function clozeMarked(){
   clozeCards=cards.filter(function(c){return c.starred;});
-  if(!clozeCards.length){toast('No marked cards');return;}
+  if(!clozeCards.length){toast('Mark some cards first using the ★ button');return;}
   clozeIdx=0;
   buildClozeModal();
   showCloze();
@@ -1094,7 +1228,7 @@ function buildClozeModal(){
 // ── EXAMPLES ──────────────────────────────────────────────────────────────────
 function examplesMarked(){
   var marked=cards.filter(function(c){return c.starred;});
-  if(!marked.length){toast('No marked cards');return;}
+  if(!marked.length){toast('Mark some cards first using the ★ button');return;}
   var ex=document.getElementById('exModal');if(ex)ex.remove();
   var modal=document.createElement('div');
   modal.id='exModal';
@@ -1130,7 +1264,7 @@ var aiStoryData=[];
 
 async function aiStoryMarked(){
   var marked=cards.filter(function(c){return c.starred;});
-  if(!marked.length){toast('No marked cards');return;}
+  if(!marked.length){toast('Mark some cards first using the ★ button');return;}
 
   var apiKey=localStorage.getItem('rc_api_key')||'';
   if(!apiKey){
